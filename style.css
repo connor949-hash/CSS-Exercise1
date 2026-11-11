@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+header {
+ background-color: white;
+ color: white;
+ text-align: center;
+ padding: 20px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Card {
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;          
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.1);
+    text-align: center; 
+}
+
+.Card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-name {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+ .price {
+    margin: 0 0 15px;
+    fornt-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+ }
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #388E3C;
+}
+
+.btn:active {
+  background-color: #2E7D32;
+}
+
+.btn:focus {
+  outline: 3px solid #A5D6A7;
+}
+
+@media (max-width: 768px) {
+  main {
+    max-width: 660px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  main {
+    max-width: 340px;
+  }
+}
+
+
+
+
+
